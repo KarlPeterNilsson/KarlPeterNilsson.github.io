@@ -1,0 +1,89 @@
+body {
+    background: rgba(50, 50, 50, 1);
+    color:rgba(200,200,200,1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-size: 20px;
+    color:rgba(200,200,200,1);
+}
+
+a:hover {
+    font-size: 20px;
+    color:rgba(200,200,200,1);
+    text-decoration: none;
+}
+
+.row {
+    margin-bottom: 5px;  
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+.header-button {
+    background: rgba(50,50,50,1);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: green;
+    width: 250px;
+}
+
+.header-button:hover {
+	background: rgba(100,100,100,1);
+	color: green;
+}
+
+.header-wrapper {
+	width: 100px;
+}
+
+.carousel {
+background: rgba(255,255,255,0);
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-height: 500px;    /* Set slide height here */
+    margin: 0 auto;
+
+}
+
+.nav .active > .nav  {
+    border: none;
+    background: rgba(100,100,100,1);
+    color:white;
+}
+
+.nav,
+.nav .active > .nav:hover {
+    border-radius: 0px !important;
+    background: rgba(100,100,100,1);
+    color:white;
+}
+
+.nav {
+    border-bottom: none !important;
+    border-top: none !important;
+    border-left: 1px solid white !important;
+    border-right: 1px solid white !important;
+}
+
+.nav .active {
+    border-bottom: 1px solid white !important;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.header-splitter {
+    height:50px;
+}
+
+.carousel .carousel-caption { visibility: hidden; }
+.carousel:hover .carousel-caption { visibility: visible; }
