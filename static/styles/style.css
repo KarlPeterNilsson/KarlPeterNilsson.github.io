@@ -5,12 +5,11 @@ body {
 }
 
 a {
-    font-size: 20px;
+    font-size: 15px;
     color:rgba(200,200,200,1);
 }
 
 a:hover {
-    font-size: 20px;
     color:rgba(200,200,200,1);
     text-decoration: none;
 }
@@ -76,9 +75,7 @@ background: rgba(255,255,255,0);
 }
 
 .nav .active {
-    border-bottom: 1px solid white !important;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-bottom: 1px solid white !important;  
 }
 
 .header-splitter {
@@ -87,3 +84,10 @@ background: rgba(255,255,255,0);
 
 .carousel .carousel-caption { visibility: hidden; }
 .carousel:hover .carousel-caption { visibility: visible; }
+
+@media (max-width:768px) {
+.nav .active {
+    border-top: 2px solid white !important;  
+    border-bottom: 2px solid white !important;  
+}
+}
